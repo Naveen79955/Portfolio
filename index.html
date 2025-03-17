@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#">Naveen</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-image">
+                <!-- Add your profile image here -->
+                <img src="naveencolorphoto.jpg" alt="Naveen" id="profile-img">
+            </div>
+            <h1>Hi, I'm Naveen</h1>
+            <p>Full Stack Developer</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hello! I'm a passionate Full Stack Developer from Andhra Pradesh, India. I graduated with a B.Sc in Computer Science and Statistics from Pydah Degree College in 2023.</p>
+                <p>As a fresher in the tech industry, I'm enthusiastic about creating innovative solutions using modern web technologies. I have hands-on experience in both frontend and backend development.</p>
+                <p>Beyond coding, I'm interested in:</p>
+                <ul class="interests-list">
+                    <li>🗺️ Mapping and Navigation</li>
+                    <li>📈 Stock Market Investing</li>
+                    <li>🗣️ Improving Communication Skills</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>HTML, CSS, JavaScript, React.js, Bootstrap</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-server"></i>
+                <h3>Backend Development</h3>
+                <p>Python, Django, REST API</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>Database</h3>
+                <p>MySQL</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-certificate"></i>
+                <h3>Certifications</h3>
+                <p>Python Full Stack Development</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Exam Paper Correction System" class="project-img">
+                <h3>Automated Exam Paper Correction System</h3>
+                <p>An AI-powered system for scanning and grading exam papers automatically. Streamlines the evaluation process and reduces manual effort.</p>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>AI</span>
+                    <span>Image Processing</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A responsive portfolio website built with modern web technologies. Features clean design and smooth interactions.</p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Bootstrap</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="mailto:buddhanaveen2003@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/budda-naveen/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Naveen79955/Portfolio"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Naveen's Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
